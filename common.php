@@ -1,7 +1,4 @@
 <?php
-header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
-header("Cache-Control: post-check=0, pre-check=0", false);
-header("Pragma: no-cache");
 session_start();
 
 //環境設定
@@ -9,7 +6,7 @@ session_start();
 //DBアクセス情報選択 ['/local.php','/remote.php']
 include_once(dirname(__FILE__) . '/local.php');
 //ログ表示切り替え
-const LOG_DISP_MODE = true;
+const LOG_DISP_MODE = false;
 //index.phpを開いたときに表示する野菜データのリストタイプ ['all':全ての野菜, 'season:旬の野菜']
 const DATA_LIST_TYPE = 'season';
 //詳細検索メニューの開閉状態 ['':close, '1':open]
@@ -28,7 +25,7 @@ const TAX_IN = 1.08;
 //セール品割引率
 const DISCOUNT = 0.8;
 //種類のリスト
-const TYPE_LIST = ["果菜類", "葉菜類", "根菜類", "いも類", "山菜", "香草", "きのこ", "その他"];
+const TYPE_LIST = ["果菜類", "葉菜類", "根菜類", "いも類", "山菜", "きのこ", "その他"];
 //`seasons`のフィールド名
 const MONTH_LIST = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 //`cuisine`のフィールド名

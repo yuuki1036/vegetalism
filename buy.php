@@ -24,7 +24,7 @@ $title = '購入';
         </div>
         <small class="form-text text-muted mt-0">入力されたメールアドレスは送信処理後破棄いたします。</small>
     </form>
-
+    <p class="detail-img-outer mt-4"><img src="images/mak800.jpg" class="detail-img img-thumbnail" alt=""></p>
     <p class="mt-5"><a href="index.php">お買い物を続ける</a></p>
 <?php else : ?>
     <p class="alert alert-danger">カートが空です。手続きをやり直してください。</p>

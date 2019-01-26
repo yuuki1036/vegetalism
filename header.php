@@ -20,5 +20,4 @@
     <div class="d-flex flex-row pb-2">
         <h1 class="p-0 m-0"><a href="index.php" class="text-dark"><?=h($pageName)?></a></h1>
         <p class="small align-self-end ml-1 mb-1">野菜を食べよう！</p>
-        <p><a href="manage/index.php">管理画面</a></p>
     </div>

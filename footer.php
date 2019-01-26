@@ -2,10 +2,10 @@
 <?=LOG_DISP_MODE && isset($log2) ? "<small>$log2</small><br>" : ''?>
 <?=LOG_DISP_MODE && isset($log) ? "<small>$log</small>" : ''?>
 </div>
-<div class="d-flex mt-5">
-    <p class="attention small alert alert-warning p-1 mb-0">こちらは学習のために制作したサイトです。<br>実際に売買は行われません。</p>
+<div class="mt-5">
+    <p class="attention small alert alert-warning d-inline-block p-1 mb-0">こちらは学習のために制作したサイトです。<br>実際に売買は行われません。</p>
 
-    <button type="button" class="btn btn-info btn-sm ml-2" data-toggle="modal" data-target="#exampleModal">このサイトについて</button>
+    <button type="button" class="btn btn-info btn-sm d-inline-block align-bottom ml-2" data-toggle="modal" data-target="#exampleModal">このサイトについて</button>
 
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -17,7 +17,7 @@
                     </button>
                 </div>
                     <div class="modal-body">
-                        <p>閲覧いただきありがとうございます。<br>こちらは藤岡勇樹が勉強・就活のために作った模擬ECサイトです。サイトの脆弱性対策やデータベースの操作について学びました。<br><br>
+                        <p class="mb-0">閲覧いただきありがとうございます。こちらは藤岡勇樹が勉強・就活のために作った模擬ECサイトです。サイトの脆弱性対策やデータベースの操作について学びました。<br><br>
                         &lt;仕様&gt;<br>
                         使用言語：PHP, JavaScript, HTML/CSS<br>
                         フレームワーク：Bootstrap<br>
@@ -40,7 +40,7 @@
                         商品・料理を管理画面から編集できる<br>
                         <br>
                         <br>
-                        ソースコードは<a href="https://github.com/yuuki1036/reversi" target="_blank">こちら</a>です。
+                        ソースコードは<a href="https://github.com/yuuki1036/vegetalism" target="_blank">こちら</a>です。
                         </p>
                     </div>
                     <div class="modal-footer">
