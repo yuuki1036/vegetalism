@@ -3,7 +3,7 @@
 <?=LOG_DISP_MODE && isset($log) ? "<small>$log</small>" : ''?>
 </div>
 <div class="mt-5">
-    <p class="attention small alert alert-warning d-inline-block p-1 mb-0">こちらは学習のために制作したサイトです。<br>実際に売買は行われません。</p>
+    <p class="attention small alert alert-warning d-inline-block mb-2 ml-2">こちらは学習のために制作したサイトです。<br>実際に売買は行われません。</p>
 
     <button type="button" class="btn btn-info btn-sm d-inline-block align-bottom ml-2" data-toggle="modal" data-target="#exampleModal">このサイトについて</button>
 
