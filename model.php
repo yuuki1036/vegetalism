@@ -279,8 +279,6 @@ function getCartData(){
         }else{
             $error[] = '不正な値です。';
         }
-    }else{
-        $error[] = '商品情報がありません。';
     }
 
 

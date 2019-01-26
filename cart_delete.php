@@ -2,7 +2,7 @@
 include_once(dirname(__FILE__) . '/common.php');
 $id = filter_input(INPUT_GET, 'id');
 if($id){
-    if(preg_match('/\A[0-9]{1,10}\z/', $id)){
+    if(preg_match('/\A[0-9]{1,10}\z/u', $id)){
         if(array_key_exists($id, $_SESSION['cart'])){
             unset($_SESSION['cart'][$id]);
             header('Location: cart.php');
