@@ -29,7 +29,7 @@
                     <div class="input-group-prepend">
                         <span class="input-group-text">価格</span>
                     </div>
-                    <input name="value" type="text" value="<?=isset($_GET['value']) ? h($_GET['value']) : ''?>"　class="form-control search-input-value" aria-describedby="button-addon2">
+                    <input name="value" type="text" value="<?=isset($_GET['value']) ? h($_GET['value']) : ''?>" class="form-control search-input-value" aria-describedby="button-addon2">
                     <select name="value_cond" class="custom-select search-input-cond" id="input-value-cond">
                         <option value='0' <?=empty($_GET['value_cond']) ? 'selected' : ''?>>円</option>
                         <option value='1' <?=isset($_GET['value_cond']) && $_GET['value_cond'] == '1' ? 'selected' : ''?>>円以下</option>

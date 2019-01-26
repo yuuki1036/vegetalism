@@ -42,9 +42,11 @@ search.php
 }
 .search-input-value{
     max-width: 200px;
+    min-width: 120px;
 }
 .search-input-cond{
     max-width: 90px;
+    min-width: 70px;
 }
 /*************************
 index.php
