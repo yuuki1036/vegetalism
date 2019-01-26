@@ -1,0 +1,5 @@
+local.php
+remote.php
+images/
+.ht*
+.DS_Store

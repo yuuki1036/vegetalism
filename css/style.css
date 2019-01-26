@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* googlefonts */
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP&subset=japanese');
+
+/*************************
+common
+**************************/
+body{
+  font-family: 'Noto Sans JP', sans-serif;
+}
+a:hover{
+    text-decoration: none;
+}
+a:visited{
+    color: purple;
+}
+.wrap{
+    max-width: 900px;
+}
+.contents{
+    min-height: 600px;
+
+}
+
+/*************************
+footer.php
+**************************/
+.attention{
+    max-width: 320px;
+}
+/*************************
+search.php
+**************************/
+.search-detail-box{
+    max-width: 600px;
+}
+.search-input-name{
+    max-width: 400px;
+}
+.search-input-type{
+    max-width: 150px;
+}
+.search-input-value{
+    max-width: 200px;
+}
+.search-input-cond{
+    max-width: 90px;
+}
+/*************************
+index.php
+**************************/
+.itenbox-outer{
+
+}
+.itembox{
+
+    border: 1px solid #AAA;
+}
+.veg_small{
+    max-width: 100px;
+}
+.summary{
+    width: 150px;
+}
+/*************************
+detail.php
+**************************/
+.detail-img-outer{
+    max-width: 400px;
+}
+.detail-img{
+    max-width: 100%;
+}
+.amount-select{
+    max-width: 75px;
+}
+.amount-select2{
+    max-width: 60px;
+}
+/*************************
+buy.php
+**************************/
+.input-email{
+    max-width: 400px;
+}
+/*************************
+manage
+**************************/
+.comment{
+    max-width: 400px;
+    max-height: 70px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
