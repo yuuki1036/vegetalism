@@ -140,7 +140,7 @@ function uploadCuisineImage(){
     if($_POST){
         //idよりファイル名作成
         $id = $_POST['id'];
-        $path = $_SERVER['DOCUMENT_ROOT'] . '/vegetalism/images/cu-' . $id . '.jpg';
+        $path = $_SERVER['DOCUMENT_ROOT'] . ROOT_NAME . '/images/cu-' . $id . '.jpg';
         $log .= '$path = ' . $path . '<br>';
         if(move_uploaded_file($_FILES['pic']['tmp_name'], "$path")){
             header('Location: index.php');
