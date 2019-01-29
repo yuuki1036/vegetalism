@@ -38,6 +38,7 @@ const USE_LIST = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j'];
 *mySQL接続
 *
 *PDOオブジェクトを作成する。エラー時はエラーメッセージをHTMLに出力する。
+*
 *@param array $access アクセス権 ['PUBLIC_DB_ACCESS', 'MANAGE_DB_ACCESS']
 *@return object PDOオブジェクト
 */

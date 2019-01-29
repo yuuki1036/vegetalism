@@ -19,9 +19,7 @@ a:visited{
 }
 .contents{
     min-height: 600px;
-
 }
-
 /*************************
 footer.php
 **************************/
@@ -51,11 +49,7 @@ search.php
 /*************************
 index.php
 **************************/
-.itenbox-outer{
-
-}
 .itembox{
-
     border: 1px solid #AAA;
 }
 .veg_small{
