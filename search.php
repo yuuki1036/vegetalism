@@ -19,7 +19,7 @@
                     </div>
                     <select name="type" class="custom-select search-input-type">
                         <option value='0' <?=empty($_GET['type']) ? 'selected' : ''?>>選択しない</option>
-                        <?php for($i=0; $i<7; $i++) : ?>
+                        <?php for($i=0; $i<6; $i++) : ?>
                             <option value='<?=$i+1?>' <?=isset($_GET['type']) && $_GET['type'] == $i+1 ? 'selected' : ''?>><?=h(TYPE_LIST[$i])?></option>
                         <?php endfor; ?>
                     </select>

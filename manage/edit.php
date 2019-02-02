@@ -21,7 +21,7 @@ list($ed_veg_data, $error, $log) = editVegetableData();
         <div class="input-group-prepend w-50">
             <span class="input-group-text">種類</span>
             <select name="type" class="custom-select">
-                <?php for($i=0; $i<7; $i++) : ?>
+                <?php for($i=0; $i<6; $i++) : ?>
                     <option value='<?=$i+1?>' <?=$ed_veg_data['type'] == $i+1 ? 'selected' : ''?>><?=TYPE_LIST[$i]?></option>
                 <?php endfor; ?>
             </select>

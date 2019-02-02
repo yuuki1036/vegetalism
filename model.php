@@ -110,7 +110,7 @@ function getVegetableData(){
     //種類のバリデーション・SQL文作成
     $type = filter_input(INPUT_GET, 'type');
     if($type){
-        if(preg_match('/\A[1-7]{1}\z/u', $type)){
+        if(preg_match('/\A[1-6]{1}\z/u', $type)){
             $conditions[] = "type=?";
             $ph_type[] = PDO::PARAM_INT;
             $ph_value[] = $type;

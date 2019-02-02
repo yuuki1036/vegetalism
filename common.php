@@ -25,7 +25,7 @@ const TAX_IN = 1.08;
 //セール品割引率
 const DISCOUNT = 0.8;
 //種類のリスト
-const TYPE_LIST = ["果菜類", "葉菜類", "根菜類", "いも類", "山菜", "きのこ", "その他"];
+const TYPE_LIST = ["果菜類", "葉菜類", "根菜類", "いも類", "きのこ", "その他"];
 //`seasons`のフィールド名
 const MONTH_LIST = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 //`cuisine`のフィールド名
@@ -106,6 +106,7 @@ function img_path($id, $size='small', $type='vegetable'){
     return ROOT_NAME . '/images/' . $name . '.jpg';
 }
 
+
 /**
 *配列を文字列に変換（ログ表示用）
 *
@@ -127,6 +128,7 @@ function a($arr){
     }
     return $str . ' ]';
 }
+
 
 /**
 *メールアドレスバリデーション

@@ -22,7 +22,7 @@ list($cr_veg_data, $error ,$log) = createVegetableData();
             <span class="input-group-text">種類</span>
             <select name="type" class="custom-select">
                 <option value='0' <?=empty($cr_veg_data['type']) ? 'selected' : ''?>>未選択</option>
-                <?php for($i=0; $i<7; $i++) : ?>
+                <?php for($i=0; $i<6; $i++) : ?>
                     <option value='<?=$i+1?>' <?=isset($cr_veg_data['type']) && $cr_veg_data['type'] == $i+1 ? 'selected' : ''?>><?=TYPE_LIST[$i]?></option>
                 <?php endfor; ?>
             </select>
